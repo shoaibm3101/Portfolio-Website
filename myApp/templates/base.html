@@ -1,0 +1,408 @@
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    {% load static %} 
+    <link rel="stylesheet" href="{% static 'base.css' %}">
+  </head>
+
+
+  <body>
+
+    <!--Navbar Code-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container justify-content-center">
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Welcome Area-->
+   
+    <div class="welcomeArea">
+      <video autoplay loop muted plays-inline class="welcome-vid">
+        <source src="static\img\67358-521707474_small.mp4" type="video/mp4">
+      </video>
+
+      <h1>Shoaib Mustafa</h1>
+    </div>
+
+
+    <!--Introduction-->
+
+    <section class="introArea" id="about">
+      <div class="introTitle">
+        <h1 class="aboutheader text-center container">
+          About
+          <span class = "aboutheaderDETAIL">Me</span>
+        </h1>
+      </div>
+      
+      <div id="card-area">
+        <div class="wrapper">
+          <div class="box-area">
+
+            <div class="aboutBox aboutBox1">
+              <!-- <img src="static\img\aboutME1.jpg" alt="Not Working"> -->
+              <div class="overlay">
+                <h3>Who Am I</h3>
+                <p>I am currently a Second Year student at TMU (Formerly Ryerson) studying Computer Science. I have a strong love for coding and am willing to continue learning.
+                  I wish to have a fruitfull and successful career doing the thing I love, while also getting to meet new people and build on new connections. I am excited for what's
+                  ahead and am prepared for any challenges in the way.
+                </p>
+              </div>
+            </div>
+
+            <div class="aboutBox aboutBox2">
+              <!-- <img src="static\img\aboutME2.avif" alt="Not Working"> -->
+              <div class="overlay">
+                <h3>Interests</h3>
+                <p>I enjoy doing many things in my free time from playing group sports, to videogames, to watching motorsport. The main sport I do play is Basketball with my other
+                  close friends, however I have also actively been apart of swimming and soccer. I am also a big F1 fan and a car enthusiast overall. My current favourite brand is 
+                  Aston Martin. 
+                </p>
+              </div>
+            </div>
+
+            <div class="aboutBox aboutBox3">
+              <!-- <img src="static\img\aboutME3.jpeg" alt="Not Working"> -->
+              <div class="overlay">
+                <h3>Volunteer</h3>
+                <p>I am an avid volunteer in my community where I have done 200+ hours. I first volunteered as a Junior Swimming Instructor where I then further became a 
+                  certified lifeguard. I also took part in the 2024 Ontario Summer Games and different food banks for the underprivedged. I beleive it is important in supporting 
+                  our communities to create a better future. 
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Work Section Starts-->
+
+    <section class = "work" id="project">
+        <div class = "container">
+          <div class="workTitle">
+            <h1 class="workheader text-center container">
+                Personal
+                <span class = "workheaderDETAIL">Projects</span>
+            </h1>
+          </div>
+
+          <div class="top2cards row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                  <div class="card-body">
+                    <p class = "period">May 2024 - June 2024</p>
+                    <h5 class="card-title">NovarisTech Website</h5>
+                    <p class="card-text">A website for a tech service providing company in the US. It utilizes the Django framework along with HTML, CSS, JavaScript, and Python. 
+                      It has a fully functional DataBase with an email sending system as well as many complex frontend designs and animations.
+                    </p>
+                    <a href="https://github.com/shoaibm3101/NovarisTechWebsite" class="btn btn-primary btn-dark" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <p class = "period">July, 2024 - August, 2024</p>
+                    <h5 class="card-title">Maze VideoGame</h5>
+                    <p class="card-text">A game built through the Unity engine which involved escaping a maze. It utilizes C# as the primary coding language and other aspects of
+                      the Unity Engine such as Objects, Colliders, Movement, etc. The game is operational and works smoothly, however the assests were premade. 
+                    </p>
+                    <a href="#" class="btn btn-primary btn-dark">Github</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="bottom2cards row">
+              <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                  <div class="card-body">
+                    <p class = "period">March, 2024 - May 2024</p>
+                    <h5 class="card-title">Ecommerce Store</h5>
+                    <p class="card-text">An ecommerce website which is highly replicated by the Skullcandy Store website at the time. It involed Django and their database system
+                      for the backend as well as HTML and CSS for the frontend. It has an operational Search and Cart system which interacts with the frontend and backend. 
+                    </p>
+                    <a href="#" class="btn btn-primary btn-dark">Github</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <p class = "period">August, 2024</p>
+                    <h5 class="card-title">GreenPulse</h5>
+                    <p class="card-text">A website catered to address the harmful habits of others towards the environment. It is not finished as it was a hackathon project
+                      with myself and other friends. It uses Django, HTML, and CSS with a fully operational login and account system and we were further trying to 
+                      implement APIs to enhance any data we were representing. 
+                    </p>
+                    <a href="#" class="btn btn-primary btn-dark">Github</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+    </section>
+
+
+    <!--Resume Starts-->
+
+    <section class="resume" id="experience">
+      <div class="resumeTitle">
+          <h1 class="resumeheader text-center container">
+            Resume
+          </h1>
+      </div>
+
+      <div class="resumeArea">
+        <div class="container">
+          <main class="row">
+
+            <section class="col">
+
+              <header class="title">
+                <h2>Education</h2>
+              </header>
+
+              <div class="contents">
+                
+                <div class="resumeBox">
+                  <h4>2019 - 2020</h4>
+                  <h3>Middle School</h3>
+                  <p>I completed middle school at Whaleys Corners public school where I was apart of various sports teams (basketball, volleyball, soccer, etc) and 
+                    extra curriculars (grade representative in student parliament). I began in grade 7 as I had moved houses during this time.</p>
+                </div>
+
+                <div class="resumeBox">
+                  <h4>2021 - 2024</h4>
+                  <h3>High School Diploma</h3>
+                  <p>I completed my Highschool Diploma at Jean Augustine Secondary School where I maintained a high average throughout my four years (90+) and was
+                    also apart of many clubs such as the Computer Science club, Computer Eng club, Volleyball Club, School Band, etc.
+                  </p>
+                </div>
+
+                <div class="resumeBox">
+                  <h4>2025 - 2029</h4>
+                  <h3>Computer Science Degree</h3>
+                  <p>As you already know I am pursuing a Computer Science degree from TMU (formerly Ryseron) where I am already performing and exicted to see what 
+                    the future entails. I currently have a 3.73 GPA and am on the Dean's List for the Faculty of Science. However, I am not done yet. 
+                  </p>
+                </div>
+
+              </div>
+            </section>
+
+
+            <section class="col">
+
+              <header class="title">
+                <h2>Experience</h2>
+              </header>
+
+              <div class="contents">
+                
+                <div class="resumeBox">
+                  <h4>Jun 2023 - July 2023</h4>
+                  <h3>Junior Swim Instructor</h3>
+                  <p>I volunteered as a Junior Swim Instructor for my local community center where I was then trained to further become a certified lifeguard. It was where I first
+                    developed some of my soft skills such as time management, communication, and responsibility. 
+                  </p>
+                </div>
+
+                <div class="resumeBox">
+                  <h4>Jun 2023 - July 2023</h4>
+                  <h3>Junior Coding Instructor</h3>
+                  <p>I volunteered as a Junior COding Instructor for CodeNinjas  where I would support kids with any questions
+                  they would have based on simple coding topics and using block coding. It helped brushing up upon any coding topics which I may have had issues on in the past.</p>
+                </div>
+
+                <div class="resumeBox">
+                  <h4>October 2024 - Present</h4>
+                  <h3>Part-Time Coding Instructor</h3>
+                  <p>I am now a paid part time worker at CodeNinjas where I am now assigned to teach some of the harder concepts like Unity's game engine, C#, and JavaScript. 
+                    By working here, I have been able to keep my various coding skills in check throughout the school year.
+                </div>
+
+              </div>
+
+            </section>
+
+
+          </main>
+
+          <div class="resumeDownload">
+            <a href="static\img\Shoaib_Mustafa_Resume.pdf"download>
+              <button  type="button" class="resumeDownBut btn btn--download">Download Resume</button>
+            </a>
+          </div>
+          
+        </div>
+      </div>
+      
+    </section>
+
+
+
+
+    <!--Contact Section-->
+    <section class = "contact" id="contact">
+        <div class = "container-fluid row">
+            <div class="contactTitle">
+              <h1 class="contactheader text-center container">
+                Contact
+                <span class = "contactheaderDETAIL">Me</span>
+              </h1>
+            </div>
+
+            <div class="contact-me col-lg-6 text-center">
+                <div class="card bottom-margin">
+                  <div class="contact_card_body card-body">
+                    <h3 class="contact_card_title card-title">Leave a Message</h3>
+                    
+                    <form id="form" method = "post">
+
+                        {% csrf_token %}
+                        <p class = "topic">Name</p>
+                        <div class="input-control form-floating">
+                          
+                          <input class="formInput" type="text" id="name" placeholder="Your name" name = "name">
+                          <div class="error"></div>
+                        </div>
+
+                        <p class = "topic">Email Address</p>
+                        <div class="input-control form-floating emailInput">
+                          
+                          <input class="formInput" type="text" id="email" placeholder="name@example.com" name = "email">
+                          <div class="error"></div>
+                        </div>
+                        <br>
+
+                        <p class = "topic">Message</p>
+                        <div class="input-control form-floating">
+                         
+                          <input class="formInput" type="text" id="message" placeholder="Your Message" name = "message">
+                          <div class="error"></div>
+                        </div>
+
+                        <br>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-dark" type="submit" id="submitBtn">Submit</button>
+                        </div>
+
+                    </form>
+                  </div>
+                </div>        
+            </div>
+
+            <div class="contact_me col-lg-6 text-center">
+                <div class="card bottom-margin">
+                  <div class="contact_card_body card-body">
+                    <h3 class="contact_card_title card-title">Contact Info</h3>
+                    <br>
+
+                    <div class="contactEmail">
+                      <h5 class = "contact_heading">Email</h5>
+                      <p>shoaibmtoronto@gmail.com</p>
+                    </div>
+                    
+                    <div class="contactPhone">
+                      <h5 class = "contact_heading">Phone Number</h5>
+                      <p>647-510-3101</p>
+                    </div>
+                    
+                    <div class="contactSocials">
+                      <h5 class = "contact_heading">Socials</h5>
+                    
+                      <div class="socialButtons">
+                        <a class="socialButton linkedin" href="https://www.linkedin.com/in/shoaib-mustafa-431891312/?trk=opento_sprofile_details" target="_blank">
+                          <div class="icon">
+                            <i class="fa-brands fa-linkedin"></i>
+                          </div>
+                        </a>
+
+                        <a class="socialButton twitter" target="_blank">
+                          <div class="icon">
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
+                        </a>
+
+                        <a class="socialButton github" href="https://github.com/shoaibm3101" target="_blank">
+                          <div class="icon">
+                            <i class="fa-brands fa-github"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    
+                    
+        
+                  </div>
+                </div>
+              </div>
+
+        </div>
+    </section>
+
+    <!--Contact Me Ends-->
+
+    <!--Footer Begins-->
+
+    <section>
+        <footer class="foot text-center">
+          <h6>Copyright © 2025 All rights reserved</h6>
+          <br>
+          <h6>Made with ❤️ by Shoaib</h6>
+        </footer>
+    </section>
+
+    <!--Footer Ends-->
+
+
+    <script>
+      
+      const navBar = document.querySelector('.navbar');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY >= 800){
+          navBar.classList.add('navscroll');
+        } 
+        else if (window.scrollY < 800){
+          navBar.classList.remove('navscroll');
+        }
+      });
+
+    </script>
+
+    <script type="text/javascript" src="{% static 'js/basejs.js' %}"></script>
+
+  </body>
+
+
+</html>

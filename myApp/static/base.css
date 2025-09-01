@@ -229,6 +229,7 @@ html{
     width: 100%;
     background-color: rgb(50, 55, 55);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 2%;
 }
 
 
@@ -238,6 +239,7 @@ html{
     align-items: center;
     max-height: 100%;
     max-width: 100%;
+    margin-top: 0.5%;
 }
 
 .resume .resumeArea.container{

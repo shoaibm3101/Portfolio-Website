@@ -239,7 +239,8 @@ html{
     align-items: center;
     max-height: 100%;
     max-width: 100%;
-    margin-top: 0.5%;
+    padding-top: 0.1%;
+    /* margin-bottom: 0.2%; */
 }
 
 .resume .resumeArea.container{
@@ -336,7 +337,7 @@ html{
     height: 50px;
     background-color: rgb(225, 220, 85);
     font-weight: bold;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 
 .resumeDownBut:hover{

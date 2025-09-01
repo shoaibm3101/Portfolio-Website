@@ -226,7 +226,6 @@ html{
 
 /* Resume Section */
 .resume{
-    height: 120vh;
     width: 100%;
     background-color: rgb(50, 55, 55);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -237,6 +236,8 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .resume .resumeArea.container{
@@ -333,6 +334,7 @@ html{
     height: 50px;
     background-color: rgb(225, 220, 85);
     font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .resumeDownBut:hover{
@@ -402,7 +404,7 @@ html{
 }
 
 .formInput{
-    width: 880px;
+    width: 100%;
     height: 50px;
 }
 
